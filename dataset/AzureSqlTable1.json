@@ -1,0 +1,163 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "PKID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "BatchID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RowNum",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProcessFlag",
+				"type": "varchar"
+			},
+			{
+				"name": "ErrorDescription",
+				"type": "varchar"
+			},
+			{
+				"name": "CreateDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "AltMembershipNumber",
+				"type": "varchar"
+			},
+			{
+				"name": "ProducerCode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ClientID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Program",
+				"type": "varchar"
+			},
+			{
+				"name": "EffectiveDate",
+				"type": "varchar"
+			},
+			{
+				"name": "DateJoined",
+				"type": "varchar"
+			},
+			{
+				"name": "ExpirationDate",
+				"type": "varchar"
+			},
+			{
+				"name": "Prefix",
+				"type": "varchar"
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "MiddleName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			},
+			{
+				"name": "Suffix",
+				"type": "varchar"
+			},
+			{
+				"name": "Email",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AddressLine1",
+				"type": "varchar"
+			},
+			{
+				"name": "AddressLine2",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "StateProvince",
+				"type": "varchar"
+			},
+			{
+				"name": "PostalCode",
+				"type": "varchar"
+			},
+			{
+				"name": "CountryCode",
+				"type": "varchar"
+			},
+			{
+				"name": "PhoneNumber",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MobilePhone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MemberType",
+				"type": "char"
+			},
+			{
+				"name": "PlanID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PlanName",
+				"type": "varchar"
+			},
+			{
+				"name": "PlanCode",
+				"type": "varchar"
+			},
+			{
+				"name": "Primary",
+				"type": "varchar"
+			},
+			{
+				"name": "Restrictions",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "USRiderEligibility"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
